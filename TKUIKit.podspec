@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.version      = "1.0.1"
     s.summary      = "A short description of MyFramework."
     s.description  = <<-DESC
-    A much much longer description of TKUIKit.
+    The collect of reused UI components used for TK app.
     DESC
     s.homepage     = "http://tiki.vn"
     s.license      = "MIT"
@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
     # s.source       = { :git => "https://github/samwize/MyFramework", :tag => "#{s.version}" }
     s.platform     = :ios, "9.3"
     s.source_files  = "TKUIKit/Extension/*.swift"
+    s.swift_version = "4.0"
 end
