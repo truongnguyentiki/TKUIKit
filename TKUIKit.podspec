@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "TKUIKit"
-    s.version      = "1.0.1"
+    s.version      = "1.0.0"
     s.summary      = "A short description of MyFramework."
     s.description  = <<-DESC
     The collect of reused UI components used for TK app.
