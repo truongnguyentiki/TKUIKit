@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 
-extension UIImage {
+public extension UIImage {
     
-    public func resizedFitImage(expectedSize: CGSize, isRatioAspectWidth:Bool = true) -> UIImage? {
+    func resizedFitImage(expectedSize: CGSize, isRatioAspectWidth:Bool = true) -> UIImage? {
         let width = self.size.width
         let height = self.size.height
         

@@ -11,6 +11,7 @@
 		2A9781C6228A5FF000F62445 /* TKUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9781C5228A5FF000F62445 /* TKUIKitTests.swift */; };
 		2A9781C8228A5FF000F62445 /* TKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9781BA228A5FEF00F62445 /* TKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A9781D4228A620D00F62445 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9781D3228A620D00F62445 /* ImageExtension.swift */; };
+		2A9781D9228AA2AC00F62445 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9781D8228AA2AC00F62445 /* ColorUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		2A9781C5228A5FF000F62445 /* TKUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKUIKitTests.swift; sourceTree = "<group>"; };
 		2A9781C7228A5FF000F62445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A9781D3228A620D00F62445 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		2A9781D8228AA2AC00F62445 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				2A9781D3228A620D00F62445 /* ImageExtension.swift */,
+				2A9781D8228AA2AC00F62445 /* ColorUtils.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9781D4228A620D00F62445 /* ImageExtension.swift in Sources */,
+				2A9781D9228AA2AC00F62445 /* ColorUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
