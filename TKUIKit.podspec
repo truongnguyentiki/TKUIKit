@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.author       = { "Truong Nguyen" => "truong.nguyen2@tiki.vn" }
     s.source       = { :git => "https://github.com/truongnguyentiki/TKUIKit.git", :tag => "1.0.0" }
     # s.source       = { :git => "https://github/samwize/MyFramework", :tag => "#{s.version}" }
-    s.platform     = :ios, "9.3"
+    s.platform     = :ios, "12.0"
     s.source_files  = "TKUIKit/Extension/*.swift"
     s.swift_version = "4.0"
 end
